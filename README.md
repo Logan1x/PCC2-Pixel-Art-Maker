@@ -1,8 +1,13 @@
 # PixelArtMaker
 This Repo contains Code for [Pixel Art Maker](https://ravireddy07.github.io/PCC2-Pixel-Art-Maker/) Project done for Udacity Nanodegree & also a part of Project Completion Challenge-GoogleIndiaScholar. This is web app that allows users to draw pixel art on a customizable canvas! 
 
+
+
+
 **This page is Web/Desktop , Tablet and Mobile responsive.**
   See Here
+  
+  
   ![reaponsive in different](https://user-images.githubusercontent.com/26524467/42325172-02ddfb40-8083-11e8-9989-e1e0eb4096a4.png)
 
 
