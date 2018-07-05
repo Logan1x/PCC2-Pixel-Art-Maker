@@ -413,6 +413,11 @@ input[type="number"]:focus {
   text-decoration: none;
 }
 
+.navbar__logo:hover {
+  transition: 1.0s;
+  font-size: 17px;
+}
+
 .navbar__menu {
   display: none;
 }

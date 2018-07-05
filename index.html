@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="navbar__inner">
 				<abbr title="Udacity"><a href="https://in.udacity.com/" target="_blank" onclick="PlaySound('R2D2');"><img class="icon-style" src="images/udacity-svg.svg"></a></abbr>
-				<a href="https://in.udacity.com/google-india-scholarships" target="_blank" class="navbar__logo" onclick="PlaySound('R2D2');">Google India Schloarship</a>
+				<a href="https://in.udacity.com/google-india-scholarships" target="_blank" class="navbar__logo" onclick="PlaySound('R2D2');"><abbr title="Google India Schloarship-2018">Google India Schloarship</abbr></a>
 				<nav class="navbar__menu">
 					<ul>
 						<li><a href="https://www.gitshowcase.com/ravireddy07" target="_blank" onclick="PlaySound('R2D2');">About Me</a></li>
@@ -63,7 +63,7 @@
 							<br><abbr title="Enter Width">Grid Width:</abbr>
 							<input type="number" name="width"  id="inputWeight" onkeypress="return isNumeric(event)" oninput="maxLengthCheck(this)" maxlength="2" min="1" max="50" value="15"/>
 							<br><abbr title="Create Canvas"><input type="submit" class="button btun button__accent" onclick="PlaySound('R2D2');" value="Submit Value" ></abbr>
-							<abbr title="Delete Canvas"><input type="button" class="button btun button__accent" value="Reset Table" onclick="PlaySound('R2D2');" onclick="resetTable()"></abbr>
+							<abbr title="Delete Canvas"><input type="button" class="button btun button__accent" value="Reset Table" onclick="PlaySound('R2D2'); resetTable()"></abbr>
 						</form>
 
 						<h2 class="hero__title">Pick A Color</h2>
@@ -112,7 +112,7 @@
 						</div>
 
 						<abbr title="Click to Play Music"><button type="button"class="button btun button__accent" onclick="toggleMusic();"> Play/Stop Music</button></abbr>
-						<abbr title="Clear all Color"><button type="button" class="button btun button__accent" onclick="PlaySound('R2D2');" onclick="resetColour()">Reset Colour</button></abbr>
+						<abbr title="Clear all Color"><button type="button" class="button btun button__accent" onclick="PlaySound('R2D2'); resetColour()" >Reset Colour</button></abbr>
 
 						<h2 class="hero__title">Design Canvas</h2>
 						<table id="pixelCanvas"></table>
@@ -126,7 +126,7 @@
 
 
 	<!-- Footer -->
-	<marquee direction="left" scrollamount="12" loop="True" behavior="alternate" draggable="true" aria-dropeffect="move"> Follow up using below links for Upcoming Project Updates!</marquee>
+	<marquee direction="left" scrollamount="10" loop="True" behavior="alternate" draggable="true" aria-dropeffect="move"> This can be Draggable.Follow with below links</marquee>
 	<div class="footer footer--dark">
 
 		<div class="container">
