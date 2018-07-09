@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400");
-
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -23,9 +21,7 @@ abbr[title] {
   text-decoration: none;
 }
 
-code,
-kbd,
-samp {
+code, kbd, samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
@@ -34,16 +30,14 @@ small {
   font-size: 80%;
 }
 
-button,
-input {
+button, input {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
 }
 
-button,
-input {
+button, input {
   overflow: visible;
 }
 
@@ -51,8 +45,7 @@ button {
   text-transform: none;
 }
 
-button,
-[type="button"],
+button, [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
@@ -96,6 +89,10 @@ html {
   box-sizing: inherit;
 }
 
+.stress {
+  color: #111;
+}
+
 .icon-style {
   width: 50px;
   height: 50px;
@@ -112,20 +109,17 @@ html {
   display: none;
 }
 
-.left-align {
-  text-align: left;
-}
-
 .center, center-align {
   text-align: center;
+}
+
+.left-align {
+  text-align: left;
 }
 
 .right-align {
   text-align: right;
 }
-
-.stress {
-  color: #111; }
 
 img, svg {
   max-width: 100%;
@@ -247,7 +241,7 @@ button, .button {
   text-decoration: none;
 }
 
-  button:hover, button:focus, .button:hover, .button:focus {
+button:hover, button:focus, .button:hover, .button:focus {
     outline: 0;
 }
 
@@ -563,7 +557,7 @@ input[type="number"]:focus {
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("../images/evie_default_bg.jpeg");
+  background-image: url("../images/background.jpeg");
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
